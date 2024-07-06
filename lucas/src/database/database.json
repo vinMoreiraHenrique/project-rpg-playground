@@ -1,0 +1,186 @@
+{
+  "characters": [],
+  "missions": [
+    {
+      "id": 1,
+      "description": "Se registrar como aventureiro na Guilda",
+      "min_rank": "E",
+      "reward": {
+        "exp": 10,
+        "gold": 10,
+        "skill_points": 1
+      }
+    }
+  ],
+  "completed_missions": [],
+  "achievements": [
+    {
+      "id": 1,
+      "description": "Derrotou o primeiro monstro",
+      "reward": {
+        "exp": 10,
+        "skill_points": 1
+      }
+    },
+    {
+      "id": 2,
+      "description": "Derrotou 10 monstros",
+      "reward": {
+        "exp": 30,
+        "gold": 10
+      }
+    }
+  ],
+  "completed_achievements": [],
+  "monsters": [
+    {
+      "id": 1,
+      "name": "Goblin",
+      "level": 1,
+      "exp": 10
+    }
+  ],
+  "ranks": [
+    {
+      "id": 1,
+      "nane": "E",
+      "base_level": 1
+    },
+    {
+      "id": 2,
+      "nane": "D",
+      "base_level": 25
+    },
+    {
+      "id": 3,
+      "nane": "C",
+      "base_level": 50
+    },
+    {
+      "id": 4,
+      "nane": "B",
+      "base_level": 100
+    },
+    {
+      "id": 5,
+      "nane": "A",
+      "base_level": 200
+    },
+    {
+      "id": 6,
+      "nane": "S",
+      "base_level": 400
+    },
+    {
+      "id": 7,
+      "nane": "SS",
+      "base_level": 800
+    }
+  ],
+  "occupations": [
+    {
+      "id": 1,
+      "name": "Guerreiro",
+      "weapon": "Espada"
+    },
+    {
+      "id": 2,
+      "name": "Lanceiro",
+      "weapon": "Lanca"
+    },
+    {
+      "id": 3,
+      "name": "Mago",
+      "weapon": "Cajado"
+    },
+    {
+      "id": 4,
+      "name": "Arqueiro",
+      "weapon": "Arco"
+    }
+  ],
+  "weapons": [
+    {
+      "swords": [
+        {
+          "id": 1,
+          "name": "Espada simples",
+          "description": "Espada simples de ferro",
+          "damage_type": "Lacerante",
+          "statistics": {
+            "damage": 10,
+            "attack_speed": 1,
+            "durability": 100
+          },
+          "rank": "E",
+          "level": 1,
+          "is_two_handed": false
+        }
+      ],
+      "spears": [
+        {
+          "id": 1,
+          "name": "Lança longa",
+          "damage_type": "Perfurante",
+          "description": "Lança longa de ferro",
+          "statistics": {
+            "damage": 10,
+            "attack_speed": 1,
+            "durability": 100
+          },
+          "rank": "E",
+          "level": 1,
+          "is_two_handed": false
+        }
+      ],
+      "bows": [
+        {
+          "id": 1,
+          "name": "Arco de madeira",
+          "description": "Arco simples de madeira",
+          "damage_type": "Perfurante",
+          "statistics": {
+            "damage": 10,
+            "attack_speed": 1,
+            "durability": 100
+          },
+          "rank": "E",
+          "level": 1,
+          "is_two_handed": true
+        }
+      ],
+      "axes": [
+        {
+          "id": 1,
+          "name": "Machado leve",
+          "description": "Machado leve de ferro",
+          "damage_type": "Lacerante",
+          "statistics": {
+            "damage": 10,
+            "attack_speed": 1,
+            "durability": 100
+          },
+          "rank": "E",
+          "level": 1,
+          "is_two_handed": true
+        }
+      ],
+      "wizards": [
+        {
+          "id": 1,
+          "name": "Cajado de mandeira",
+          "description": "Cajado de mandeira simples",
+          "damage_type": "Mágico",
+          "statistics": {
+            "damage": 10,
+            "attack_speed": 1,
+            "durability": 100
+          },
+          "rank": "E",
+          "level": 1,
+          "is_two_handed": true
+        }
+      ]
+    }
+  ]
+}
