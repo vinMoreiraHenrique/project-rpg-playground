@@ -5,6 +5,7 @@ import { Character, Monster, Weapon } from "./classes.mjs";
 const player = new Character("Yoshi", vocations[0]);
 
 
+
 const monster = new Monster("Demon", 10, 5, 660, 100);
 
 const newMonster = new Monster("God of Panic", 10, 5, 660, 200);
