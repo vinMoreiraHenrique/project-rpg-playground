@@ -127,6 +127,7 @@ export class Character {
         this.experienceToLevelUp = this.experienceForNextLevel(this.level)
       }
       //   this.experienceToLevelUp = this.level * 15750 
+      this.updateAtk()
     }
     console.log(`Parabéns, ${this.name} você foi do nível ${oldLevel} para o nível ${this.level}!`)
       
@@ -135,7 +136,7 @@ export class Character {
     //   this.level += 1
     
     //   console.log(`Parabéns, ${this.name} atingiu o nível ${this.level}!`)
-    // } 
+    // }
   }
 }
 
