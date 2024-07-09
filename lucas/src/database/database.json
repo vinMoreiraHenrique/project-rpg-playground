@@ -1,5 +1,58 @@
 {
-  "characters": [],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Oliver",
+      "occupation": "Guerreiro",
+      "level": 100,
+      "exp": 0,
+      "rank": "E",
+      "life": 50,
+      "strength": 30,
+      "agility": 20,
+      "intelligence": 10,
+      "precision": 9,
+      "healing_factor": 1.2,
+      "hunger": 0,
+      "skill_points": 0,
+      "inventory": {
+        "items": [],
+        "food": [],
+        "equipments": [],
+        "weapons": [
+          {
+            "id": 1,
+            "name": "Espada simples",
+            "description": "Espada simples de ferro",
+            "damage_type": "Lacerante",
+            "statistics": {
+              "damage": 10,
+              "attack_speed": 1,
+              "durability": 100
+            },
+            "rank": "E",
+            "level": 1,
+            "is_two_handed": false
+          }
+        ],
+        "money": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      }
+    }
+  ],
+  "guild_adventurers": [
+    {
+      "id": 1,
+      "name": "Oliver",
+      "occupation": "Guerreiro",
+      "level": 1,
+      "exp": 0,
+      "rank": "E"
+    }
+  ],
   "missions": [
     {
       "id": 1,
@@ -9,6 +62,14 @@
         "exp": 10,
         "gold": 10,
         "skill_points": 1
+      }
+    },
+    {
+      "id": 2,
+      "description": "Treinamento - Derrote 2 goblins",
+      "min_rank": "E",
+      "reward": {
+        "exp": 20
       }
     }
   ],
@@ -36,6 +97,9 @@
     {
       "id": 1,
       "name": "Goblin",
+      "atk": 10,
+      "def": 5,
+      "life": 30,
       "level": 1,
       "exp": 10
     }
@@ -116,7 +180,9 @@
           "level": 1,
           "is_two_handed": false
         }
-      ],
+      ]
+    },
+    {
       "spears": [
         {
           "id": 1,
@@ -132,7 +198,9 @@
           "level": 1,
           "is_two_handed": false
         }
-      ],
+      ]
+    },
+    {
       "bows": [
         {
           "id": 1,
@@ -148,7 +216,9 @@
           "level": 1,
           "is_two_handed": true
         }
-      ],
+      ]
+    },
+    {
       "axes": [
         {
           "id": 1,
@@ -164,7 +234,9 @@
           "level": 1,
           "is_two_handed": true
         }
-      ],
+      ]
+    },
+    {
       "wizards": [
         {
           "id": 1,

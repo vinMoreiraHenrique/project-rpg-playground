@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const databaseFilePath = './database.json';
+const databaseFilePath = './src/database/database.json';
 
 // Função para ler o banco de dados
 const readDatabase = () => {
