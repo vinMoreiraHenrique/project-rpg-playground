@@ -1,1 +1,44 @@
+# MVP
 
+- Personagem
+  [ ] - Criar (instanciar)
+  [ ] - Ver estatísticas
+  [ ] - Atacar monstro
+  [ ] - Subir de nível
+  [ ] - Ver exp para próximo nível
+  [ ] - Movimentação (W, S, A, D)
+  [ ] - Coletar itens
+  [ ] - Domesticar monstro
+  [ ] - Encantar arma
+
+- Monstro
+  [ ] - Criar (instanciar)
+  [ ] - Atacar personagem
+  [ ] - Dropar loot
+  [ ] - chance de ser domado
+
+- Combate
+  [ ] - Loop de combate
+  [ ] - Subir nível do personagem (chamar função do personagem)
+  [ ] - Entregar itens de drop (chamar função do personagem)
+
+- NPC
+  [ ] - Criar (instanciar)
+  [ ] - Quest
+  [ ] - Diálogos
+  [ ] - Movimentação
+  [ ] - Loja
+
+- Armas
+  [ ] - Criar (instanciar)
+
+- Armadura
+
+- Guilda
+  [ ] - Atribuir missões
+
+
+
+# Side Quest
+- Montaria
+- Outfit personagem
