@@ -1,5 +1,7 @@
-import { monsters, monstersNewArray, vocations, weaponTypes } from "./database.mjs";
-import { Character, Monster, Weapon } from "./classes.mjs";
+import { vocations, weaponTypes } from "./src/database/database.mjs";
+import {Character} from "./src/classes/character.mjs";
+import {Monster} from "./src/classes/monster.mjs";
+import {Weapon} from "./src/classes/weapon.mjs";
 
 
 const player = new Character("Yoshi", vocations[0]);

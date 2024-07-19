@@ -1,0 +1,84 @@
+# Arquivos de build
+bin/
+obj/
+
+# Pacotes NuGet
+*.nupkg
+# The packages folder can be ignored because of the presence of PackageReference in the project files (instead of packages.config).
+**/packages/*
+
+# Arquivos de log
+*.log
+*.tlog
+
+# Arquivos de backup
+*.bak
+*.swp
+*.swo
+
+# Arquivos de cache
+.vs/
+.vscode/
+.idea/
+_ReSharper.Caches/
+
+# Diretório de publicação
+publish/
+app.publish/
+
+# Arquivos de configuração do usuário
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de banco de dados local
+*.mdf
+*.ldf
+
+# Arquivos de trabalho do Visual Studio
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+
+# Arquivos temporários
+[Tt]emp/
+[Tt]empPEFiles/
+
+# Configurações de projeto
+.project
+.classpath
+
+# Arquivos de teste
+*.coverage
+*.coveragexml
+
+# Logs do Rider
+.idea/
+
+# Diretórios e arquivos específicos de contêineres (Docker, etc.)
+docker-compose.override.yml
+
+# Logs de debug do Visual Studio
+*.excludebreakpoints
+*.breakpoints
+
+# Arquivos específicos do JetBrains Rider
+.idea/
+
+# Arquivos específicos de integração contínua
+*.orig
+
+# Arquivos específicos do dotnet-ef
+migrations/
+
+# Arquivos de cache de pacotes global
+.nuget/
+
+# Arquivos de cache do dotnet
+.dotnet/
+
+# Diretório de cache de ferramentas global
+.tools/

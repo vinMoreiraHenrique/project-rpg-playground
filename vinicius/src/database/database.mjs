@@ -1,4 +1,4 @@
-import { Character, Monster } from "./classes.mjs";
+import { Monster } from "../classes/monster.mjs"; 
 
 export const vocations = [
   {
@@ -32,12 +32,52 @@ export const vocations = [
     atkMultiplier: 3.5,
     spellMultiplier: 1.1,
     lifeMultiplier: 2.0,
+    spells: [
+      {
+        name: "rage",
+        manaCost: 10,
+        baseDamage: 20,
+        damageType: ["physical"],
+        manaCost: 30,
+        minLevel: 15,
+        minMagicLevel: 1
+      },
+      {
+        name: "knockout",
+        manaCost: 10,
+        baseDamage: 30,
+        damageType: ["physical"],
+        manaCost:18,
+        minLevel: 1,
+        minMagicLevel: 1
+      },
+    ],
   },
   {
     name: "Mago",
     atkMultiplier: 1.1,
     spellMultiplier: 2.0,
     lifeMultiplier: 1.2,
+    spells: [
+      {
+        name: "firebolt",
+        manaCost: 10,
+        baseDamage: 50,
+        damageType: ["physical", "fire"],
+        manaCost: 30,
+        minLevel: 10,
+        minMagicLevel: 4
+      },
+      {
+        name: "icebolt",
+        manaCost: 10,
+        baseDamage: 70,
+        damageType: ["physical", "ice"],
+        manaCost: 40,
+        minLevel: 15,
+        minMagicLevel: 7
+      },
+    ],
   },
 ];
 
